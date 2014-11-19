@@ -1,0 +1,31 @@
+{
+  "name": "socket.io-txt",
+  "version": "0.0.1",
+  "description": "Socket.IO Adapter implementation by Textfile",
+  "homepage": "http://github.com/satkaku/socket.io-txt",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*"
+  },
+  "author": "satkaku",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/satkaku/socket.io-txt.git"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "socket.io-adapter": "^0.3.1",
+    "txtsub": "0.0.3",
+    "uid2": "0.0.3"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "express": "^4.10.2",
+    "mocha": "^2.0.1",
+    "should": "^4.3.0",
+    "socket.io": "^1.2.0",
+    "socket.io-client": "^1.2.0"
+  }
+}
